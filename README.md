@@ -2,7 +2,16 @@
 
 Example implementation of JivoSDK Flutter Plugin
 
-## Getting Started
+## Configuration
+
+To support iOS platform, please add following lines into beginning of `Podfile` before initial run:
+
+```
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/JivoChat/cocoapods-repo.git'
+```
+
+## What next
 
 This project is a starting point for a Flutter application.
 
