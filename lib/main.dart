@@ -4,7 +4,7 @@ import 'package:jivosdk_plugin/plugin.dart';
 
 void main() {
   runApp(const App());
-  Jivo.session.setup(channelId: "anuAe7pZjh", userToken: "");
+  Jivo.session.setup(channelId: "3cfxOugRYn", userToken: "");
 }
 
 class App extends StatelessWidget {
