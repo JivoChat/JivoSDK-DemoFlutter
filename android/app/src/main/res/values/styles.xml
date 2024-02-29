@@ -15,4 +15,30 @@
     <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
         <item name="android:windowBackground">?android:colorBackground</item>
     </style>
+
+    <style name="JivoSDKTheme" parent="Base.Theme.JivoSDK">
+        <item name="android:statusBarColor">@color/jivo_sdk_primary_graphite_700</item>
+    </style>
+
+    <style name="JivoSDKThemeSwitcher">
+        <item name="theme">@style/Main.Theme.JivoSDK.Graphite</item>
+    </style>
+
+    <style name="Widget.JivoSDK.AppBarLayout" parent="Widget.Material3.AppBarLayout">
+        <item name="android:background">@drawable/bg_appbar</item>
+    </style>
+
+    <style name="Widget.JivoSDK.Toolbar" parent="">
+        <item name="navigationIcon">@drawable/jivo_sdk_vic_arrow_24dp</item>
+        <item name="navigationIconTint">?attr/colorOnPrimary</item>
+        <item name="title">@string/chat_title_placeholder</item>
+        <item name="subtitle">@string/chat_subtitle_placeholder</item>
+        <item name="titleTextAppearance">?attr/textAppearanceSubtitle2</item>
+        <item name="titleTextColor">?attr/colorOnPrimary</item>
+        <item name="subtitleTextColor">@color/jivo_sdk_color_on_surface_84</item>
+        <item name="subtitleTextAppearance">?attr/textAppearanceCaption</item>
+        <item name="logo">@drawable/vic_logo</item>
+        <item name="titleMarginStart">8dp</item>
+    </style>
+
 </resources>

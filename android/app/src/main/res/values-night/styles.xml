@@ -15,4 +15,17 @@
     <style name="NormalTheme" parent="@android:style/Theme.Black.NoTitleBar">
         <item name="android:windowBackground">?android:colorBackground</item>
     </style>
+
+    <style name="JivoSDKTheme" parent="Base.Theme.JivoSDK">
+        <item name="android:statusBarColor">@color/jivo_sdk_surface</item>
+    </style>
+
+    <style name="JivoSDKThemeSwitcher">
+        <item name="theme">@style/Main.Theme.JivoSDK.Graphite</item>
+    </style>
+
+    <style name="Widget.JivoSDK.AppBarLayout" parent="Widget.Material3.AppBarLayout">
+        <item name="android:background">#1E1E1E</item>
+    </style>
+
 </resources>
