@@ -1,4 +1,4 @@
-# jivosdk_flutter_demo
+# Jivosdk Flutter Demo
 
 Example implementation of JivoSDK Flutter Plugin
 
